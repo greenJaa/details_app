@@ -1,7 +1,7 @@
 from src.details.app import app
 
-HOST='0.0.0.0'
-DEBUG=True
-PORT=8000
+HOST='127.0.1.1'
+DEBUG=False
+PORT=8080
 
 app.run(host=HOST,port=PORT,debug=DEBUG)
